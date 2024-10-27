@@ -1,12 +1,15 @@
-
 /* required css  start here */
 body,
 html {
     -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: "Source Sans 3", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 img {
@@ -20,7 +23,7 @@ img {
 *,
 *::before *::after {
     -webkit-box-sizing: inherit;
-            box-sizing: inherit;
+    box-sizing: inherit;
 }
 
 /* required css  end here */
@@ -32,7 +35,7 @@ a.btn {
     text-decoration: none;
     color: #fff;
     border: 1px solid rgba(255, 255, 255, 0.24);
-  
+
     padding: 4px 15px;
     -webkit-transition: background-color .5s ease-out;
     -o-transition: background-color .5s ease-out;
@@ -108,8 +111,8 @@ a.btn:hover {
     display: -ms-grid;
     display: grid;
     -webkit-column-gap: 16px;
-       -moz-column-gap: 16px;
-            column-gap: 16px;
+    -moz-column-gap: 16px;
+    column-gap: 16px;
     row-gap: 16px;
 }
 
@@ -134,7 +137,7 @@ a.btn:hover {
     width: 617px;
     height: 617px;
     /* background-color: #D660FF;; */
-    /*background: -o-radial-gradient(top, ellipse, #D660FF, transparent),
+/*background: -o-radial-gradient(top, ellipse, #D660FF, transparent),
         -o-radial-gradient(bottom, ellipse, #6079FF, transparent);
     background: radial-gradient(ellipse at top, #D660FF, transparent),
         radial-gradient(ellipse at bottom, #6079FF, transparent);
@@ -174,7 +177,7 @@ a.btn:hover {
     opacity: .85;
     border-radius: 50%;
     -webkit-filter: blur(150px);
-            filter: blur(150px);
+    filter: blur(150px);
     position: absolute;
     top: 50px;
     right: -450px;
@@ -187,7 +190,7 @@ a.btn:hover {
     opacity: .85;
     border-radius: 50%;
     -webkit-filter: blur(150px);
-            filter: blur(150px);
+    filter: blur(150px);
     position: absolute;
     top: -365px;
     left: -123px;
@@ -238,8 +241,8 @@ a.btn:hover {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
     -webkit-column-gap: 34px;
-       -moz-column-gap: 34px;
-            column-gap: 34px;
+    -moz-column-gap: 34px;
+    column-gap: 34px;
     row-gap: 16px;
 }
 
@@ -252,13 +255,13 @@ a.btn:hover {
     border-radius: 20px;
     border: 1px solid #f3f3f3;
     -webkit-box-shadow: 2px 2px 5px 0 rgb(0, 0, 0, 0.08);
-            box-shadow: 2px 2px 5px 0 rgb(0, 0, 0, 0.08);
+    box-shadow: 2px 2px 5px 0 rgb(0, 0, 0, 0.08);
 }
 
 .pet-photo {
     -webkit-box-ordinal-group: 2;
-        -ms-flex-order: 1;
-            order: 1;
+    -ms-flex-order: 1;
+    order: 1;
     -ms-grid-row: 1;
     grid-row: 1;
 }
@@ -267,7 +270,7 @@ a.btn:hover {
     display: block;
     height: 100%;
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
 }
 
 .pet-card-text {
@@ -312,14 +315,15 @@ a.btn:hover {
     .pets-filter {
         font-size: 1.375rem;
     }
-    
+
     .pets-filter button {
         font-size: 1.375rem;
 
     }
+
     .page-section {
         padding: 130px 16px;
-    
+
     }
 
     .page-section-title {
